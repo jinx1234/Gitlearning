@@ -13,6 +13,6 @@ to check status:
 
 git status
 
-to check logs:
+to check logs:(to check history)
 
 git logs
