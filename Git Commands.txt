@@ -16,3 +16,11 @@ git status
 to check logs:(to check history)
 
 git logs
+
+To remove/delete trpositary:
+
+rm -rf .git
+
+for cloning outside project:
+
+git clone giturl
