@@ -44,4 +44,10 @@ Skip staging area and direct commit:
 
 git commit -a -m "modified for test"
 
-Renaming and moving the file :
+Renaming and moving the file:
+
+git mv file1.txt file2.txt
+
+Cached file:(sometimes added gitignore file goes into stagig mode)(remove from tracking mode)
+
+git rm --cached file1.txt
