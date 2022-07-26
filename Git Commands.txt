@@ -1,0 +1,18 @@
+To configure First:
+
+git config --global user.name "jinx"
+hit config --global user.email "ajinkyanigade999@gmail.com"
+
+To Crete repo:
+
+git init    (it will create repositary)
+git add --a  (it will push file to staging area)
+git commit -m "msg"
+
+to check status:
+
+git status
+
+to check logs:
+
+git logs
