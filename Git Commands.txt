@@ -24,3 +24,12 @@ rm -rf .git
 for cloning outside project:
 
 git clone giturl
+
+for ignoring files or directory:
+
+first create file with .gitignore
+
+then add file name or pattern to ignore that
+
+eg: *.log 
+    dir\	
