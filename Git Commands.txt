@@ -15,11 +15,11 @@ git status
 
 to check logs:(to check history)
 
-git logs
+git log
 
 To remove/delete trpositary:
 
-rm -rf .git
+git rm -rf .git
 
 for cloning outside project:
 
@@ -51,3 +51,25 @@ git mv file1.txt file2.txt
 Cached file:(sometimes added gitignore file goes into stagig mode)(remove from tracking mode)
 
 git rm --cached file1.txt
+
+git viewing the log history and changing and editing commits:
+
+git log
+git log -p (it will show history of commits along with the diffences or changes from last file)
+git log -p -2 ( it will show only two commits)
+git log --stat 
+git log --pretty=oneline
+git log --pretty=short
+git log --since=2.days  git log --since=2.month git log --since=2.year
+git log --pretty=format:%h -- %an"(h--hash commit an- author name)
+git commit --ammend 
+
+To unstage a file:
+git restore --staged filename.txt
+
+going for last coomit in unmodified stage or undoing changes:(this command more useful only when all files are commited)
+
+git checkout -- filename.txt
+git checkkot -f (all changes undo)
+
+To create a repo and add remote host and then push pull files:
