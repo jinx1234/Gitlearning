@@ -94,3 +94,27 @@ git checkout -b dev
 
 to switch branch:
 git checkout master
+
+To merge with other branch:
+git merge dev
+
+to check last commit in branch
+git branch -v
+
+to check merge branch:
+git branch --merged
+
+to check unmerge branch:
+git branch --no-merged
+
+to delete the branch:
+git branch -d dev
+
+to confirmly delete:
+git branch -D dev
+
+Push branches to remote github repositary:
+git push origin dev
+
+remove branches at github :
+git push -d origin dev
