@@ -88,3 +88,9 @@ To craete an alias:
 
 git config --global alias.st status
 git config --global alias.unsatge 'restore --staged --'
+
+to creat an branch in git:
+git checkout -b dev
+
+to switch branch:
+git checkout master
